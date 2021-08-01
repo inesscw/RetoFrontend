@@ -1,0 +1,155 @@
+.container-fluid{
+    background-color: rgb(27, 27, 27);
+} 
+.nuwe{
+    width: 5%;
+    height: 5%;
+    margin-top: 5px;
+    margin-left: 18px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.navbar1 {
+    color: white;
+}
+a {
+    margin-left: 20px;
+}
+img {
+    height: 15px;
+}
+.card {
+    margin-left: 33%;
+    margin-bottom: 10px;
+    background-color: rgb(55, 55, 56);
+    color: white;
+    width: 40rem;
+}  
+.card-img-top {
+    height: 20%;
+}  
+p {
+    margin-left: 3%;
+} 
+.card-link {
+    margin-left: 36%;
+}
+.stacks {
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+.stacks1 {
+    height: 50px;
+}
+.cardimg2{
+    height: 15px;
+    margin-left: 130px;
+}
+.card-title2{
+    text-align: center;
+}
+.card-link2{
+    text-align: center; 
+    color: white;
+}
+.link2{
+    text-align: center; 
+    color: white;
+}
+
+
+/* Skills */
+.hardskillstext{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+.softskillstext{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+.skillsname{
+    font-size: 14px;
+    margin-top: 3%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.container {
+  width: 30rem;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  text-align: start; /* Right-align text */
+  /* padding-top: 10px; Add top padding */
+  /* padding-bottom: 10px; Add bottom padding */
+  color: white; /* White text color */
+}
+
+
+.html {
+    background-color: #ff530f;
+    width: 90%;
+    color: black;
+}
+.css {
+    background-color: #21b8f3;
+    width: 80%;
+    color: black;
+}
+.js {
+    background-color: #f4f136;
+    width: 65%;
+    color: black;
+}
+.node {
+    background-color: #00ac09;
+    width: 60%;
+    color: black;
+} 
+.angular { 
+    background-color: #ff0000;
+    width: 30%;
+    color: black;
+} 
+.php {
+    background-color: #8899fc;
+    width: 40%;
+    color: black;
+} 
+.react { 
+    background-color: #49b302;
+    width: 20%;
+    color: black;
+} 
+.wp {
+    background-color: #0d6edd;
+    width: 37%;
+    color: black;
+} 
+
+
+/* RESPONSIVE */
+/* Responsive iphone X */
+@media only screen 
+    and (min-device-width: 375px) 
+    and (min-device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+    .container-fluid{
+        align-items: center;
+        margin-right: 30%;
+    }
+    .card{
+        align-items: center;
+        margin-right: 20%;
+    }
+}
